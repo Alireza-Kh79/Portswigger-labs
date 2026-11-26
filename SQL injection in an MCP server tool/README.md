@@ -1,6 +1,6 @@
 # SQL Injection in an MCP Server Tool
 
-**Lab:** [PortSwigger Web Security Academy — SQL injection in an MCP server tool](https://portswigger.net/web-security/mcp)
+**Lab:** [PortSwigger Web Security Academy — SQL injection in an MCP server tool](https://portswigger.net/web-security/mcp/lab-sql-injection-in-an-mcp-tool)
 **Difficulty:** Apprentice
 **Category:** MCP Server Vulnerabilities
 
