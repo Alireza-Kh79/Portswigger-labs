@@ -8,4 +8,4 @@ Each writeup covers the vulnerability, how I discovered it , the reasoning behin
 
 | Topic | Difficulty | Writeup |
 |-------|-----------|---------|
-| SQL Injection in an MCP Server Tool | Apprentice | [MCP/sql-injection-mcp-tool/README.md](./MCP/SQL injection in an MCP server tool/README.md) |
+| SQL Injection in an MCP Server Tool | Apprentice | [MCP/SQL injection in an MCP server tool/README.md](./MCP/SQL injection in an MCP server tool/README.md) |
