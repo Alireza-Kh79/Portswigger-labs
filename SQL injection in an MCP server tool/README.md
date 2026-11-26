@@ -85,7 +85,7 @@ Unlike `productId`, the `category` argument has no reason to be numeric, making 
 
 This returned the expected list of products in that category.
 
-![list_products baseline](./images/list-products-baseline.png)
+![list_products baseline](./images/06-list-products-baseline.png)
 
 Appending a single quote to the category value:
 
@@ -95,7 +95,7 @@ Appending a single quote to the category value:
 
 ...returned a database-level error (`Failed to list products`), with `isError` set to `true` in the response — confirming unsanitized input reaches the SQL query.
 
-![category injection test](./images/category-injection-test.png)
+![category injection test](./images/07-category-injection-test.png)
 
 ## Step 5 — UNION-based extraction
 
@@ -117,14 +117,14 @@ The final payload concatenated both columns into a single field (since the outpu
 
 This returned every row of the `users` table, with each username and password pair concatenated together.
 
-![UNION attack](./images/union-attack.png)
-![Admin credentials extracted](./images/admin-credentials-extracted.png)
+![UNION attack](./images/08-union-attack.png)
+![Admin credentials extracted](./images/09-admin-credentials-extracted.png)
 
 ## Step 6 — Logging in as administrator
 
 Using the extracted credentials, logged in as the `administrator` user, solving the lab.
 
-![Admin login success](./images/admin-login-success.png)
+![Admin login success](./images/10-admin-login-success.png)
 
 ## Key takeaways
 
